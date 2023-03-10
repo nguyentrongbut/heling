@@ -6,7 +6,6 @@
     --font-heading: "DM Sans", sans-serif;
     --bg-color-1: #f8f3ed;
     --bg-color-2: #222120;
-    --primary-font: "Prata", serif;
 }
 
 html {
@@ -16,7 +15,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: var(--primary-font);
+    font-family: "Prata", serif;
 }
 
 /* Common */
@@ -681,4 +680,15 @@ a {
     color: #ffffff;
     opacity: 0.4;
 }
-    
+
+/*========= Scrollbar =========*/
+::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+    background: var(--bg-color-1);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    background: var(--bg-color-2);
+}
